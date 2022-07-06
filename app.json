@@ -1,16 +1,16 @@
 ﻿{
-  "name": "Xray快速部署",
-  "description": "Deploy Xray Vless to Heroku.",
-  "keywords": ["V2ray", "Xray"],
+  "name": "uydrds",
+  "description": "uydrds",
+  "keywords": ["uydrds"],
   "env": {
     "ProxySite": {
       "description": "反代一个网站，例如：mirror.umd.edu，不填写表示使用本地静态网页文件。",
-      "value": ""
+      "value": "mirror.umd.edu"
     },
 
     "Vless_UUID": {
       "description": "Vless uuid（http://www.uuid.online/在线生成）",
-      "value": "273d7707-9bb1-44ff-b24c-b59876344cac"
+      "value": "f5fa49ee-10f5-4149-9ff8-88b4a074359c"
     },
 
     "Vless_Path": {
@@ -19,7 +19,7 @@
     },
     "Vmess_UUID": {
       "description": "Vmess uuid（http://www.uuid.online/在线生成）",
-      "value": "273d7707-9bb1-44ff-b24c-b59876344cac"
+      "value": "f5fa49ee-10f5-4149-9ff8-88b4a074359c"
     },
 
     "Vmess_Path": {
@@ -37,7 +37,7 @@
        "value": "latest"
      }
   },
-  "website": "https://github.com/ggg/rf",
-  "repository": "https://github.com/ggg/rf",
+  "website": "https://github.com/miyufwjyjte/uydrds.git",
+  "repository": "https://github.com/miyufwjyjte/uydrds.git",
   "stack": "container"
  }
