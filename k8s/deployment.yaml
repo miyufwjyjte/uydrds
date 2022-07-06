@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ray
+  name: uydrds
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ray
+      app: uydrds
   template:
     metadata:
       labels:
-        app: ray
+        app: uydrds
     spec:
       containers:
-      - image: okteto.dev/ray:latest
-        name: ray
+      - image: okteto.dev/uydrds:latest
+        name: uydrds
         ports:
         - containerPort: 8080
         env:
@@ -23,11 +23,11 @@ spec:
         - name: ProxySite
           value: ""
         - name: Vless_UUID
-          value: "273d7707-9bb1-44ff-b24c-b59876344cac"
+          value: "f5fa49ee-10f5-4149-9ff8-88b4a074359c"
         - name: Vless_Path
           value: "/s233"
         - name: Vmess_UUID
-          value: "273d7707-9bb1-44ff-b24c-b59876344cac"
+          value: "f5fa49ee-10f5-4149-9ff8-88b4a074359c"
         - name: Vmess_Path
           value: "/s244"
         - name: Share_Path
